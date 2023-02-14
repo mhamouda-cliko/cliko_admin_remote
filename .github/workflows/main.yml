@@ -26,7 +26,7 @@ jobs:
       - name: Deploy Firebase Hosting
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --only hosting:web-cliko
+          args: deploy --only hosting:cliko-8ccec.web.app
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
           PROJECT_PATH: ./
