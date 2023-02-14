@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget {
                     margin: EdgeInsets.symmetric(
                         horizontal: MediaQuery.of(context).size.width * .05),
                     child: Text(
-                      "Log in",
+                      "LogIn",
                       style: TextStyle(fontSize: 22, color: Colors.white),
                     ),
                   ),
